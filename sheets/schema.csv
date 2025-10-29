@@ -1,0 +1,10 @@
+sheet,columns
+Users,user_id,alias,role,created_at
+Items,item_id,name,unit,brand,size,category,par_level,min_level,created_at
+Purchases,purchase_id,user_id,store,purchase_date,ticket_total,image_urls,raw_ocr_text_url,status
+PurchaseLines,purchase_id,line_num,name_raw,item_id,qty,unit_price,total_price,has_expiry,expiry_date,store_sku
+InventoryLots,lot_id,item_id,qty,remaining_qty,acquired_at,expiry_date,unit_cost,purchase_id,location
+Recipes,recipe_id,name,default_portions,created_by
+RecipeIngredients,recipe_id,item_id,qty_per_portion,unit
+ConsumptionLogs,consumption_id,user_id,when,recipe_id,item_id,qty,notes
+Alerts,alert_id,type,item_id,lot_id,message,due_date,status
